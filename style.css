@@ -1,0 +1,242 @@
+*{
+   margin:0%;
+   padding:0%;
+   box-sizing: border-box;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html,body{
+   width: 100%;
+   height: 100%;
+}
+#main{
+   width: 100%;
+   height: 100%;
+   
+}
+#header{
+   width: 100%;
+   height: 13%;
+   position: fixed;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   background-color: white;
+}
+#logo{
+   height: 70%;
+}
+#logo img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+  
+}
+.text{
+   color: rgb(2, 2, 157);
+   display: flex;
+}
+.text:hover{
+   color: rgb(0, 136, 255);
+}
+#contactdetail{
+   font-weight: lighter;
+}
+.icon{
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.icon:hover{
+   background-color: lightblue;
+}
+
+#login{
+   padding: 10px;
+   border-radius: 50%;
+   display: flex;
+  
+}
+
+#login:hover{
+   background-color: lightblue;
+}
+
+#try{
+ background-color: rgb(7, 181, 7);
+ padding: 10px 20px;
+ color: white;
+}
+#try:hover{
+   background-color: green;
+}
+
+#fakeheader{
+   width: 100%;
+   height: 13%;
+}
+#page1{
+   width: 100%;
+   height: 87%;
+}
+#strip{
+   width: 100%;
+   height: 8%;
+   background-color: blue;
+   color: white;
+   align-items: center;
+   display: flex;
+   justify-content: center;
+}
+#strip u{
+   margin: 20px;
+   font-weight: lighter;
+}
+#content{
+   width: 100%;
+   height: 76%;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+#box1{
+   width: 47%;
+   height: 90%;
+   background-color: white;
+   margin: 10px;
+}
+
+#box2{
+   width: 47%;
+   height: 90%;
+   background-color: white;
+}
+#box2 img{
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+   
+}
+#heading{
+   width: 100%;
+   height: 16%;
+   color: blue;
+   align-items: center;
+   display: flex;
+   justify-content: center;
+}
+#heading h1{
+   font-weight: 100;
+}
+#box1 h1{
+   font-weight: 600;
+   color: rgb(0, 0, 81);
+   font-size: 50px;
+   margin: 30px 10px;
+}
+#box1 p{
+   font-size: x-large;
+   margin: 10px;
+   font-weight: lighter;
+   margin: 30px 10px;
+}
+#btn1{
+   text-align: center;
+   margin: 10px;
+   padding: 10px 20px;
+   color: white;
+   background-color: rgb(88, 210, 255);
+   border-radius: 5px;
+}
+#btn1:hover{
+   background-color: rgb(0, 67, 92);
+}
+#btn2{
+   text-align: center;
+   margin: 10px;
+   padding: 10px 20px;
+   color:  rgb(88, 210, 255);
+   border: 1px solid  rgb(88, 210, 255);
+   border-radius: 5px;
+}
+#btn2:hover{
+   background-color: lightblue;
+   color: rgb(0, 67, 92);
+   border-color: rgb(0, 67, 92);
+}
+#btns{
+   display: flex;
+}
+#page2{
+   width: 100%;
+   height: 87%;
+   background-color:white;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
+}
+.card{
+   height: 60%;
+   width: 18%;
+   border: solid antiquewhite ;
+   border-radius: 20px;
+}
+
+#card1{
+   background-color:white;
+   margin: 20px;
+   padding: 20px;
+}
+#card1 p{
+   margin-top: 20px;
+   margin-bottom: 50px;
+}
+#card1 img{
+   height: 50%;
+   width: 100%;
+   object-fit: cover;
+}
+#card2{
+   background-color:white;
+   margin: 20px;
+   padding: 20px;
+}
+#card2 p{
+   margin-top: 20px;
+   margin-bottom: 50px;
+}
+#card2 img{
+   height: 50%;
+   width: 100%;
+   object-fit: cover;
+}
+
+#card3{
+   background-color:white;
+   margin: 20px;
+   padding: 20px;
+}
+#card3 p{
+   margin-top: 20px;
+   margin-bottom: 50px;
+}
+#card3 img{
+   height: 50%;
+   width: 100%;
+   object-fit: cover;
+}
+#card4{
+   background-color:white;
+   margin: 20px;
+   padding: 20px;
+}
+#card4 p{
+   margin-top: 20px;
+   margin-bottom: 50px;
+}
+#card4 img{
+   height: 50%;
+   width: 100%;
+   object-fit: cover;
+}
